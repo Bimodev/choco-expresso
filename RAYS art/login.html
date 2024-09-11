@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <!--fontes do google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/styleLogin.css">
+    <title>Rays art</title>
+</head>
+<body>
+        <!--cabeçario da pagina-->
+        <header id="logo">
+            
+            <nav> 
+                
+                <a href="#" class="logo"><img src="img/logo1.png" height="60px" width="80px"></a>
+                
+                    <div class="titulo">
+            <h3>Conta Rays Art</h3>
+            <a href="#">Criar conta<ion-icon name="chevron-forward-circle-outline"></ion-icon></a>
+        </div>
+            </nav>
+        
+        </header>
+
+        <form class="form">
+            <div class="header">Bem-vindo de volta</div>
+            <div class="inputs">
+                <input id="login" placeholder="username" class="input" type="text">
+                <input id="senha" placeholder="senha" class="input" type="password">
+            <div class="checkbox-container">
+                <label class="checkbox">
+                <input type="checkbox" id="checkbox">
+                </label>
+                <label for="checkbox" class="checkbox-text">Manter conectado</label>
+            </div>
+            <button href="index.html" class="sigin-btn" onclick=logar()>Entrar</button>
+            <a class="forget" href="#">Esqueceu a senha?</a>
+            <p class="signup-link">Ainda não possuo uma conta? <a href="#">criar conta</a></p>
+            </div>
+        </form>
+
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script> 
+         
+</body>
+ <script src="js/scriptLogin.js"></script>
+</html>
