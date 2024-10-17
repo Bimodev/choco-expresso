@@ -2,11 +2,15 @@
     padding: 0;
     margin: 0;
     font-family: "Poppins", sans-serif;
+    
+}
+body{
+    scroll-behavior: smooth;
 }
 .cabeçario{
     display:flex;
-    
     align-items: center;
+    text-align: center;
     background-color: #866a56;
     color: white;
     height: 10dvh;
@@ -25,6 +29,8 @@
 }
 .sobre{
     display: flex;
+    align-items: end;
+    text-align: end;
 }
 .sobre li{
     font-weight: 5px;
@@ -33,7 +39,7 @@
     letter-spacing: 3px;
     margin-left: 10dvh;
     margin-top: 4dvh;
-    font-size: 10pt;
+    font-size: 12pt;
     cursor: pointer;
     color: white;
 }
@@ -51,8 +57,140 @@
     border-radius: 2px;
 }
 .banner{
-    background-color: #F0DAAE;
+    border-bottom: 2px #dfd0c3e6 solid;
+}
+
+.banner button{
+    background-color: #b39480;
+    padding: 8px;
+    font-size: 14pt;
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: transparent;
+    color: white;
+    transition: all 0.3s ease-out;
+    cursor: pointer;
+}
+.banner button:hover{
+    background-color: #8d7261;
 }
 .banner img{
     width: 100%;
+    
+}
+.banner h1{
+    color: #6d5549;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.bg-menu {
+    width: 100%;
+    height: auto;
+    padding: 50px 0;
+    color: #6d5549;
+    border-bottom: 2px #dfd0c3e6 solid;
+
+  }
+  .menu-flex {
+    width: 88%;
+    margin: 4.5rem auto 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    overflow: hidden;
+  }
+  .bg-menu a{
+    font-size: 14pt;
+  }
+  .bg-menu h2{
+    color: #6d5549;
+    margin-top: 10px;
+    margin-left: 15px;
+    font-size: 23pt;
+  }
+  .bg-menu h2 span{
+     color: #b18f7f;
+     font-size: 20pt;
+  }
+  .menu-flex .menu1 {
+    width: 49%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--white);
+    margin-bottom: 20px;
+  }
+  .menu1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .menu1 .small-img {
+    overflow: hidden;
+    border-radius: 50%;
+    max-height: 70px;
+    max-width: 70px;
+  }
+  .menu1:hover img {
+    scale: 1.1;
+  }
+  .menu1 h4 {
+    text-transform: capitalize;
+    letter-spacing: -1;
+    white-space: nowrap;
+    font-size: 1.4rem;
+  }
+  .menu1 .line {
+    margin-top: 10px;
+    border-top: 1px dotted var(--main-color);
+    width: 50%;
+  }
+  .menu-link {
+    text-align: center;
+    margin: 30px auto;
+  }
+  .menu-link a {
+    display: inline-block;
+    text-transform: capitalize;
+    color: var(--white);
+    background: var(--main-color);
+    padding: 10px 15px;
+    transition: 0.4s ease-in-out;
+    border: 1px solid var(--main-color);
+  }
+  .menu-link a:hover {
+    background: transparent;
+  }
+  .contact{
+    overflow: hidden;
+    padding-top: 10px;
+    background-color: #866a56;
+    
+}
+.contact .row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 3rem;
+  padding: 2rem;
+  margin-bottom: 3rem;
+  overflow: hidden;
+  }
+.contact .row .map {
+  flex: 1;
+  width: 100%;
+  min-height: 500px;
+  object-fit: cover;
+}
+.contact .row form {
+  flex: 1;
+  text-align: center;
+}
+.contact .row form h3 {
+  text-transform: uppercase;
+  font-size: 2.8rem;
+  color: white;
 }
