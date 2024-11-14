@@ -1,4 +1,4 @@
-# ☕Choco-expresso
+# ☕Chocco-expresso
 
 projeto do TCC em desenvolvimento.
 Em breve estará pronto, previsão em dezembro.
