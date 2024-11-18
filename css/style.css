@@ -272,6 +272,14 @@ body{
       flex-direction: column;
       height: auto;
       padding: 10px;
+      align-items: center;
+  }
+  .cabeçario img{
+    height:60px; 
+    width:60px;
+  }
+  .letra {
+    display: none;
   }
   .cabeçario h3 {
       font-size: 14pt;
@@ -279,10 +287,13 @@ body{
       padding-left: 0;
       border-left: none;
   }
+  .sobre{
+    margin-left: -10%;
+  }
   .sobre li {
       margin-left: 5dvh;
       margin-top: 2dvh;
-      font-size: 10pt;
+      font-size: 12pt;
   }
   .banner h1 {
       font-size: 18pt;
@@ -296,6 +307,9 @@ body{
   .menu1 {
       width: 100%;
       margin-bottom: 15px;
+  }
+  .small-img{
+    display: none;
   }
   .contact .row {
       gap: 1rem;
