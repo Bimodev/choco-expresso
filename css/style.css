@@ -271,7 +271,7 @@ body{
   .cabeçario {
       flex-direction: column;
       height: auto;
-      padding: 10px;
+      padding: 1px;
       align-items: center;
   }
   .cabeçario img{
