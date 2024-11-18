@@ -1,4 +1,4 @@
-# ☕Choco-expresso
+# ☕Chocco-expresso
 
 projeto do TCC em desenvolvimento.
 Em breve estará pronto, previsão em dezembro.
@@ -6,7 +6,7 @@ Já teve uma versão que descartei, o nome era Rays art.
 
 ## 🎨Rays art
 
-esse foi um projeto que não terminei, e estou usando o codigo desse projeto como base para o [Choco-expresso](https://github.com/Bimodev/choco-expresso), ainda tenho interesse de terminar, mas tenho o Rays-art no ar.
+esse foi um projeto que não terminei, e estou usando o codigo desse projeto como base para o [Choco-expresso](https://choccoexpresso.netlify.app), ainda tenho interesse de terminar, mas tenho o Rays-art no ar.
 ### 🖇️Rays art link
 
 | versão | link | descrição |
