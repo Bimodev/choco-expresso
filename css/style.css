@@ -302,11 +302,15 @@ body{
   .menu-flex {
       flex-direction: column;
       width: 100%;
-      
-  }
+      text-align: start;
+      }
   .menu1 {
       width: 100%;
       margin-bottom: 15px;
+      
+  }
+  .menu1 .line{
+    padding-right: 10px;
   }
   .small-img{
     display: none;
@@ -362,6 +366,7 @@ body{
   }
   .menu1 h4{
       font-size: 13pt;
+      
   }
   .menu-link a{
     font-size: 10pt;
