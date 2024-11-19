@@ -147,7 +147,7 @@ body{
   }
   .menu1 .line {
     margin-top: 10px;
-    border-top: 1px dotted var(--main-color);
+    border-top: 1px dotted #b39480;
     width: 50%;
   }
   .menu-link {
