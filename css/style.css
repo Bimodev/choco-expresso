@@ -283,6 +283,14 @@ body{
   padding: 1rem;
   border-radius: 5px;
 }
+.direitos{
+  margin-top: -55px;
+  color: rgb(205, 194, 194);
+  font-size: 1rem;
+  line-height: 2;
+  background-color: #321f16;
+  opacity: 0.95;
+}
 .preloader {
 	position: fixed;
 	top: 0;
